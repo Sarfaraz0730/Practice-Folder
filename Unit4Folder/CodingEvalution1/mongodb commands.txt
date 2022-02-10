@@ -1,0 +1,15 @@
+ans 2 ) db.users.find({price:{$gt:500}})
+
+ans 3) db.users.find({color:{$gt:3}})    ------> In my database there are 0product which has color more than 3
+
+
+
+and 4 ) db.users.find({ color : { $eq : 1 } }).pretty(); ----> 
+
+ans 5 ) db.users.find().sort({"color":-1}).limit(1).pretty() ----> it is returning the value which has highest color matches
+
+ans 6 ) db.users.find({$and : [{"newproduct" : M},{"newproduct" :F}]}) ---> This command should return the product which is used by both Women and men
+
+ans 7 ) db.users.count() --> this will return total number of product in database
+
+ans 8)  

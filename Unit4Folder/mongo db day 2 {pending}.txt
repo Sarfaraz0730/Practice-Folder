@@ -1,0 +1,74 @@
+//https://lms.masaischool.com/courses/10/quizzes/403  //ASSIGNMENT LINK
+
+
+
+
+
+
+
+budget : Equal to
+ > db.users.find({"budget": {$eq:19966}}).pretty()
+{
+        "_id" : ObjectId("61cb5d5ca936eedf322f5157"),
+        "id" : 20,
+        "movie_name" : "War Is Over, The (Guerre est finie, La)",
+        "movie_genre" : "Drama",
+        "production_year " : 2015,
+        "budget" : 19966
+}
+>Greater than
+
+
+
+>
+> db.users.find({"budget": {$gt:1066}}).pretty()
+{
+        "_id" : ObjectId("61cb5d5ca936eedf322f5144"),
+        "id" : 1,
+        "movie_name" : "Vares: Private Eye (Vares - Yksityisetsivä)",
+        "movie_genre" : "Action|Comedy|Crime|Thriller",
+        "production_year " : 2009,
+        "budget" : 10214
+}
+{
+        "_id" : ObjectId("61cb5d5ca936eedf322f5145"),
+        "id" : 2,
+        "movie_name" : "Consequences of Love, The (Conseguenze dell'amore, Le)",
+        "movie_genre" : "Crime|Drama",
+        "production_year " : 2004,
+        "budget" : 19403
+}
+{
+        "_id" : ObjectId("61cb5d5ca936eedf322f5146"),
+        "id" : 3,
+        "movie_name" : "Last Passenger",
+        "movie_genre" : "Action|Mystery|Thriller",
+        "production_year " : 2010,
+        "budget" : 12442
+}
+greater than equal to
+
+{
+        "_id" : ObjectId("61cb5d5ca936eedf322f5152"),
+        "id" : 15,
+        "movie_name" : "Bambi",
+        "movie_genre" : "Animation|Children|Drama",
+        "production_year " : 1998,
+        "budget" : 15991
+}
+{
+        "_id" : ObjectId("61cb5d5ca936eedf322f5153"),
+        "id" : 16,
+        "movie_name" : "Tale of Ham and Passion, A (Jamón, Jamón)",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_year " : 2014,
+        "budget" : 14454
+}
+{
+        "_id" : ObjectId("61cb5d5ca936eedf322f5154"),
+        "id" : 17,
+        "movie_name" : "Bear, The (Ours, L')",
+        "movie_genre" : "Adventure|Children|Drama",
+        "production_year " : 2015,
+        "budget" : 11685
+}

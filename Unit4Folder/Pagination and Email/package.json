@@ -1,0 +1,16 @@
+{
+  "name": "pagination-and-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon pagination-email/src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": { 
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6"
+  }
+}
